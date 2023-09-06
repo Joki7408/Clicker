@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weed Clicker</title>
+        <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+        <script src="./javascript/index.js"></script>
+    </head>
+    <body>
+        <section class="leftPart">
+            <p id="counter"><strong>Blunts: </strong><strong id="blunts"></strong></p>
+            <button id="clicker"><img src="./resources/images/weedLeaf1.jpg" id="weedLeaf" onclick="clickWeed()"></button>
+     
+        </section>
+        <section class="middlePart">
+
+        </section>
+        <section class="rightPart">
+            <div>
+                <button class="upgrade" id="dealerButton" onclick="buyDealer()">
+                    <strong class="leftPart" id="dealerCount"></strong> 
+                    <strong class="middlePart">Dealer</strong>
+                    <strong class="rightPart" id="dealerPrice"></strong>
+                </button>
+            </div>
+            <div>
+                <button class="upgrade" id="farmButton" onclick="buyFarm()">
+                    <strong class="leftPart" id="farmCount"></strong>
+                    <strong class="middlePart">Farm</strong>
+                    <strong class="rightPart" id="farmPrice"></strong>
+                </button>
+            </div>
+            <div>
+                <button class="upgrade" id="drugDogButton" onclick="buyDrugDog()">
+                    <section class="leftPart" id="drugDogCount"></section>
+                    <section class="middlePart">Drug Dog</section>
+                    <section class="rightPart" id="drugDogPrice"></section>
+                </button>
+            </div>
+        </section>
+
+    
+    </body>
+</html>
